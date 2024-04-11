@@ -1,0 +1,11 @@
+//how to check if a value is contained in an array, if the for loop detects it, the function will return a TRUE value, otherwise a FALSE value. 
+//You can change the value returned with a number or a string, like "yes" or "no", based on what you need
+
+check_value_in_array: function (array, value) {
+        for (var i = 0; i < array.length; i++) {
+            if (array[i] === value) {
+                return true;
+            }
+        }
+        return false;
+    }
