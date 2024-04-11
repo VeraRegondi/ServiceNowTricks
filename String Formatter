@@ -1,1 +1,5 @@
-
+ stringFormatter: function (string) {
+        if (string == null || string == '')
+            return '-';
+        return string;
+    }
