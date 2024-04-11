@@ -1,0 +1,8 @@
+//how to initialize only once a table, so you can reused it multiple times in your script without initializing the table each time
+//how to initialize only once a script include, so you can reused it multiple times and call function with dot walking technique
+
+initialize_table: function() {
+		RESULT_TABLE = 'x_result_tracker';
+		util_script = new UtilsAppScript();
+	}
+
