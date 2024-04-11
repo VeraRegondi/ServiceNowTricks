@@ -1,2 +1,2 @@
 # ServiceNowTricks
-How about some ServiceNow tricks? 
+How about some ServiceNow tricks? :D
