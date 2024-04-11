@@ -1,4 +1,6 @@
- stringFormatter: function (string) {
+//how to format string when you've to return a display value in a table for example: when it miss a value you can put the "-"
+
+stringFormatter: function (string) {
         if (string == null || string == '')
             return '-';
         return string;
