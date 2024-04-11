@@ -1,0 +1,7 @@
+//how to change a date format from US (MM/GG/AAAA) to Europe (GG/MM/AAAA) by using getByFormat() for GlideDate and GlideTime
+
+europeDateFormatter: function (date) {
+        var new_date = new GlideDate();
+        new_date.setValue(date);
+        return this.europeDateFormatter(new_date.getByFormat('dd/MM/yyyy'));
+    }
