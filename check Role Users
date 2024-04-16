@@ -1,0 +1,10 @@
+//How to check whether a user has permission to perform a certain action before allowing them to do so
+
+checkUserRole: function() {
+    var user = {
+      userHasAdminRole: gs.getUser().hasRole('admin'), //insert Value of Admin Role
+      userHasXRole: gs.getUser().hasRole('x.organization'), //insert Value of X Role
+      userHasYRole: gs.getUser().hasRole('y.organization') //insert Value of Y Role
+};
+    return user;
+  },
