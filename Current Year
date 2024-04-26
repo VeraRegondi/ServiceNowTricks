@@ -1,0 +1,4 @@
+//how to get the current year through GlideDate()
+
+var currentYear = new GlideDate();
+currentYear = currentYear.getYearNoTZ(); //servicenow method 
